@@ -2,10 +2,12 @@
 python pubsub
 Pure python pub sub 
 
+# Get LIST of SYMBOL to TICKER ID MAPPING AT 
+https://assets.upstox.com/market-quote/instruments/exchange/NSE.json.gz
 
 
 
-#Explanation of Changes
+# Explanation of Changes
 
 subscribed_keys and current_ltpc_mode_keys:
 self.subscribed_keys: This set keeps track of all instrument keys that should be subscribed according to your application logic.
